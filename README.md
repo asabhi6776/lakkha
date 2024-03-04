@@ -5,7 +5,7 @@ It is a fun project to entertain kids. I don't own any content, I just downloade
 
 ## Screenshots
 
-![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+![App Screenshot](https://lakkha.gamescribe.club/assets/app-shot.png)
 
 ## Contributing
 
