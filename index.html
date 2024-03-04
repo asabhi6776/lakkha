@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Takle Lakkha</title>
+    <link rel="stylesheet" href="style.css">
+    <link
+    rel="stylesheet"
+    href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+  />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet"/>
+</head>
+<body>
+    <div id="background"></div>
+    <div class="flex-container">
+      <a href="#" class="flex-child forums">
+        <img src="assets/bablu.png" alt="Bablu Bear" class="img1" />
+      </a>
+      <a href="#" class="flex-child store">
+        <img src="assets/dablu.png" alt="Dablu Bear" class="img" />
+      </a>
+    </div>
+    <div id="lakkha"></div>
+
+    <script>
+        const background = document.getElementById('background');
+        const lakkha = document.getElementById('lakkha');
+
+        document.addEventListener('mousemove', (e) => {
+            const mouseX = e.clientX;
+            const mouseY = e.clientY;
+
+            const lakkhaX = mouseX - lakkha.clientWidth / 2;
+            const lakkhaY = mouseY - lakkha.clientHeight / 2;
+
+            lakkha.style.transform = `translate(${lakkhaX}px, ${lakkhaY}px)`;
+        });
+    </script>
+</body>
+</html>
