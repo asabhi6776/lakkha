@@ -28,6 +28,24 @@ body {
   z-index: -5;
 }
 
+.babu {
+  display: flex;
+  z-index: -4;
+}
+
+.babu-img {
+  height: 10%;
+  width: 10%;
+}
+
+.inner-flex {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: -3;
+}
+
+
 .flex-container {
   align-items: center;
   justify-content: center;
